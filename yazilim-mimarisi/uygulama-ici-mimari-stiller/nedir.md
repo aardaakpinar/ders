@@ -1,0 +1,7 @@
+# Nedir?
+
+Bu bölümdeki stiller, tek bir uygulamanın iç yapısını ve bağımlılık yönünü düzenler.
+
+Her desenin kendi klasörü vardır. Klasörün içindeki `README.md` dosyasında problem, çözüm, yapı, gizli (açılır) kod örneği, kullanım ve kaçınma durumları, artılar, eksiler, sık yapılan hatalar ve ilişkili desenler yer alır.
+
+<table data-search="false"><thead><tr><th>Desen</th><th>Özet</th></tr></thead><tbody><tr><td><a href="layered.md">Layered (N-Tier) Architecture</a></td><td>Kod yatay katmanlara ayrılır.</td></tr><tr><td><a href="onion.md">Onion Architecture</a></td><td>Domain en ortada bulunur, bağımlılıklar her zaman içe doğru akar.</td></tr><tr><td><a href="hexagonal.md">Hexagonal Architecture (Ports and Adapters)</a></td><td>Uygulama çekirdeği port adı verilen arayüzleri tanımlar.</td></tr><tr><td><a href="clean.md">Clean Architecture</a></td><td>Onion ve Hexagonal fikirlerinin birleşimi.</td></tr><tr><td><a href="vertical-slice.md">Vertical Slice Architecture</a></td><td>Kod teknik katmanlara değil özelliğe (use case) göre dilimlenir.</td></tr><tr><td><a href="microkernel.md">Microkernel (Plugin) Architecture</a></td><td>Küçük bir çekirdek ve takılıp çıkarılabilen eklentilerden oluşur.</td></tr><tr><td><a href="pipe-and-filter.md">Pipe and Filter</a></td><td>Veri, art arda dizilmiş dönüşüm adımlarından (filtre) geçer.</td></tr><tr><td><a href="transaction-script-crud.md">Transaction Script / CRUD</a></td><td>Her iş senaryosu tek bir prosedür olarak yazılır.</td></tr></tbody></table>
