@@ -1,0 +1,23 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Arda Akpınar - Ders
+  structure:
+    - type: space
+      key: space-2
+      title: Anasayfa
+      path: home
+      default: true
+      content:
+        directory: ./
+    - type: space
+      key: space-3
+      title: Assembly
+      path: assembly
+      content:
+        directory: ./assembly
+    - type: space
+      key: space-1
+      title: Yazılım mimarisi
+      path: yazilim-mimarisi
+      content:
+        directory: ./yazilim-mimarisi
